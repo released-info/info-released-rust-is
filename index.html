@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--timestamp=1671818204-->
+<!--timestamp=1671960895-->
 
 <head>
   <meta charset="UTF-8">
@@ -10,25 +10,25 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
 
   <title>
-    Is Rust 1.66 Released?
+    Is Rust 1.67 Released?
   </title>
   <link rel="icon" href="https://released.info/assets/img/technologies/rust/rust.ico" type="image/svg+xml">
-  <meta name="description" content="Is Rust 1.66 Released?">
+  <meta name="description" content="Is Rust 1.67 Released?">
   <meta name="keywords" content="Rust, release, date, when, programming, language, development">
   <meta name=”robots” content="index, follow">
 
   <!-- facebook -->
   <meta property="og:url" content="https://is.rust.released.info" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Is Rust 1.66 Released?" />
-  <meta property="og:description" content="There is no information about Rust 1.66 release! Still waiting! #released.info" />
+  <meta property="og:title" content="Is Rust 1.67 Released?" />
+  <meta property="og:description" content="Rust 1.67 will be released in 32 days! #released.info" />
   <meta property="og:image" content="https://released.info/assets/img/technologies/rust/rust-logo.png" />
 
   <!-- twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="ReleasedInfo" />
-  <meta name="twitter:title" content="Is Rust 1.66 Released?" />
-  <meta name="twitter:description" content="There is no information about Rust 1.66 release! Still waiting! #released.info" />
+  <meta name="twitter:title" content="Is Rust 1.67 Released?" />
+  <meta name="twitter:description" content="Rust 1.67 will be released in 32 days! #released.info" />
   <meta name="twitter:image" content="https://released.info/assets/img/technologies/rust/rust-logo.png" />
 
   <meta name="url" content="https://is.rust.released.info" />
@@ -45,7 +45,7 @@
 
 <body>
 
-  <input id="released-days" type="hidden" value="-1" />
+  <input id="released-days" type="hidden" value="32" />
 
   <main role="main">
     <a href="https://released.info/index.html" class="go-back"><i class="bi bi-arrow-left"></i></a>
@@ -70,7 +70,7 @@
           </li>
         </ul>
         <h2>
-          Is Rust 1.66 Released?
+          Is Rust 1.67 Released?
         </h2>
         <div class="row">
           <div class="col-lg-8">
@@ -84,13 +84,13 @@
             <!-- CHOOSE ONE OF BELOW SECTIONS HERE -->
 
             
-            
-            
             <span>
-              <div class="white-box" id="no-information">
-                No information
+              <div class="odometer-content" id="counter">
+                <div id="odometer"></div>
               </div>
             </span>
+            
+            
 
             <!-- END -->
 
@@ -99,7 +99,7 @@
         <div class="row">
           <div class="col-lg-8">
             <h3 id="highlightTextDescription1">
-              There is <span class="btn-primary">no information</span>about Rust 1.66 release date
+              Rust 1.67 will be released on<span class="btn-primary">26th October 2023</span>
             </h3>
           </div>
           
@@ -113,7 +113,61 @@
       </div>
     </section>
 
-    
+    <section class="features-section">
+      <div class="container-lg">
+        <h2>
+          Meet Rust 1.67
+        </h2>
+        <div class="row mb-5">
+          <div class="col-md-5">
+
+            <ul>
+              <li>
+                Stop passing -export-dynamic to wasm-ld.
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                Remove drop order twist of && and || and make them associative
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                Don't build compiler_builtins with -C panic=abort
+              </li>
+            </ul>
+
+          </div>
+          <div class="col-md-5">
+            <ul>
+              <li>
+                Don't set is_preview for clippy and rustfmt
+              </li>
+            </ul>
+            <ul>
+              <li>
+                Fix inconsistent rounding of 0.5 when formatted to 0 decimal places
+              </li>
+            </ul>
+            <ul>
+              <li>
+                Merge crossbeam-channel into std::sync::mpsc
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-center">
+          <a target="_blank" href="https://releases.rs/docs/1.67.0/" class="btn btn-primary btn-lg">Read more</a>
+        </div>
+      </div>
+      <div class="logo-container">
+        <span role="img" aria-label="${configuration.logoAlt2}"
+          style="background-image: url(&#39;https://released.info/assets/img/technologies/rust/rust-logo2.png&#39;);">
+        </span>
+      </div>
+    </section>
 
     <section class="posts-section">
       <div class="container-lg">
@@ -244,7 +298,9 @@
     <section class="about-section">
       <div class="container-lg">
         <div>
-    <h2>About Rust</h2>
+    <h1>Version</h1>
+    You can check the version of Rust you are using by running the command <pre>rustc --version</pre> in your terminal.
+    <h1>About Rust</h1>
     Rust is a very peculiar programming language, it is multiparadigmatic but with a special focus on object-oriented
     programming. It currently has a stable release that we will discuss further in this article,
     but it is under active development by Mozilla, the company that owns Mozilla Firefox, the internet browser.
