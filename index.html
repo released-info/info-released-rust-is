@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--timestamp=1791516593-->
+<!--timestamp=1791537752-->
 
 <head>
   <meta charset="UTF-8">
@@ -23,14 +23,14 @@
   <meta property="og:url" content="https://is.rust.released.info" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Is Rust 1.99 Released?" />
-  <meta property="og:description" content="Rust 1.99 will be released in -1 days! #released.info" />
+  <meta property="og:description" content="Rust 1.99 has been released! #released.info" />
   <meta property="og:image" content="https://released.info/assets/img/technologies/rust/rust-logo.png" />
 
   <!-- twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="ReleasedInfo" />
   <meta name="twitter:title" content="Is Rust 1.99 Released?" />
-  <meta name="twitter:description" content="Rust 1.99 will be released in -1 days! #released.info" />
+  <meta name="twitter:description" content="Rust 1.99 has been released! #released.info" />
   <meta name="twitter:image" content="https://released.info/assets/img/technologies/rust/rust-logo.png" />
 
   <meta name="url" content="https://is.rust.released.info" />
@@ -47,7 +47,7 @@
 
 <body>
 
-  <input id="released-days" type="hidden" value="-1" />
+  <input id="released-days" type="hidden" value="0" />
 
   <main role="main">
     <a href="https://released.info/index.html" class="go-back"><i class="bi bi-arrow-left"></i></a>
@@ -85,14 +85,14 @@
 
             <!-- CHOOSE ONE OF BELOW SECTIONS HERE -->
 
-            
-            
-            <!-- A counter that reached zero falls back to "Not Yet" instead of an empty box until the state is updated -->
             <span>
-              <div class="white-box" id="not-yet">
-                Not Yet
+              <div class="white-box" id="time-out">
+                It's Out!
               </div>
             </span>
+            
+            <!-- A counter that reached zero falls back to "Not Yet" instead of an empty box until the state is updated -->
+            
             
 
             <!-- END -->
@@ -102,12 +102,12 @@
         <div class="row">
           <div class="col-lg-8">
             <h3 id="highlightTextDescription1">
-              Days until Rust 1.99 is officially released
+              Rust 1.99 has been released on <span class="btn-primary">1st October 2026</span>
             </h3>
           </div>
           <div class="col-lg-8">
             <h4 id="highlightTextDescription2">
-              Rust 1.99 will be released on <span class="btn-primary">1st October 2026</span>
+              Rust 1.100 is scheduled for <span class="btn-primary">12th November 2026</span>
             </h4>
           </div>
         </div>
@@ -130,13 +130,13 @@
 
             <ul>
               <li>
-                Stabilized fs_set_times
+                C-variadic function definitions with the "C" and "C-unwind" ABIs
               </li>
             </ul>
 
             <ul>
               <li>
-                C-variadic function definitions
+                std::fs::set_times and set_times_nofollow
               </li>
             </ul>
 
@@ -150,23 +150,23 @@
           <div class="col-md-5">
             <ul>
               <li>
-                Static PIE on all gnu targets
+                Box::into_non_null, Vec::into_parts and Vec::from_parts
               </li>
             </ul>
             <ul>
               <li>
-                riscv64 musl promoted to tier 2 with host tools
+                VecDeque::retain_back
               </li>
             </ul>
             <ul>
               <li>
-                rustfmt formats cfg_select!
+                Size and alignment of values behind raw pointers
               </li>
             </ul>
           </div>
         </div>
         <div class="text-center">
-          <a target="_blank" href="https://releases.rs/docs/1.99.0/" class="btn btn-primary btn-lg">Read more</a>
+          <a target="_blank" href="https://blog.rust-lang.org/2026/10/01/Rust-1.99.0/" class="btn btn-primary btn-lg">Read more</a>
         </div>
       </div>
       <div class="logo-container">
@@ -320,7 +320,7 @@
         <br />
         The language has a lot of particular features and characteristics that make it worth taking a look. First, Rust has some very useful low-level programming characteristics, where the developer can get more involved in memory management. Rust is developed in the open by the Rust Project, and anyone may go as far as participating with the suggestion and creation of new features through the RFC process, making it very much a community project.<br />
         <h3>Releases</h3>
-        Work began on Rust in 2006, Mozilla sponsored the project from 2009, and Rust 1.0 shipped in May 2015. The current stable release is Rust 1.98.1 from 3rd September 2026, Rust 1.99.0 is scheduled for 1st October 2026, and a new stable version ships every six weeks.
+        Work began on Rust in 2006, Mozilla sponsored the project from 2009, and Rust 1.0 shipped in May 2015. The current stable release is Rust 1.99.0 from 1st October 2026, Rust 1.100.0 is scheduled for 12th November 2026, and a new stable version ships every six weeks.
         As we discussed, Rust has an extremely active community of people suggesting,
         coding and participating to improve the language,
         while Rust has a team of people constantly working on keeping releases stable, which makes it somewhat
